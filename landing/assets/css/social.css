@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://static-fastly.hackerearth.com/static/hackerearth/images/marketing/algorithm_blog/space_bg.jpg");
+    background-position: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+ .social {
+    top: 30%;
+    left: 0;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    transform: translateX(-270px);
+}
+
+.social ul li {
+    display: block;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    transition: all 1s;
+}
+
+.social ul li:hover {
+    transform: translateX(110px);
+}
+
+.social ul li.facebook:hover {
+    background-color: #3d5999;
+}
+
+.social ul li.instagram:hover {
+    background-color: #e4405f;
+    border: #e4405f;
+}
+
+.social ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social ul li i {
+    text-align: center;
+    margin-left: 14px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    transform: rotate(0deg);
+}
