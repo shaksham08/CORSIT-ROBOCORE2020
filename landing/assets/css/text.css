@@ -1,0 +1,18 @@
+.btext{
+    color: #f9f3f4;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+
+ }
+ .text{
+    font-size: 30px;
+    padding-top: 60px;
+    letter-spacing: 7px;
+    font-family: 'Raleway', sans-serif;
+ }
+ span.wrap{
+    text-decoration: none !important;
+    color: white;
+ }

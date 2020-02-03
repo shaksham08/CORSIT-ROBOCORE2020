@@ -40,7 +40,7 @@
 
 .btn:hover {
 	color: var(--def);
-	transition-delay: .6s;
+	transition-delay: 1s;
 }
 
 .btn:hover:before {
