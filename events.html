@@ -1,106 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Events</title>
-    <link rel="stylesheet" href="events.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Events</title>
+  <link rel="stylesheet" href="events.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <style media="screen">
+    .card {
+      width: 250px;
+      height: 320px;
+      background: none;
+      top: 50%;
+      left: 50%;
+    }
+
+    .card__content {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      transform-style: preserve-3d;
+      transition: all 0.8s ease;
+      border: 1px solid white;
+    }
+
+    .card__content:hover {
+      transform: rotateY(180deg);
+    }
+
+    .card__image-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      backface-visibility: hidden;
+      overflow: hidden;
+      background: black;
+      color: #000;
+    }
+
+    .card__title {
+      border-width: 10px solid white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      backface-visibility: hidden;
+      overflow: hidden;
+      background: black;
+      color: #333;
+      text-align: center;
+      transform: rotateY(180deg);
+    }
+
+
+    .card__image-container h1,
+    .card__title h1 {
+      font-family: 'zilla slab', sans-serif;
+      padding: 30px;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .card__image-container p,
+    .card__title p {
+      font-family: 'zilla slab', sans-serif;
+      padding: 30px;
+      font-weight: normal;
+      font-size: 16px;
+      text-align: center;
+      color: azure;
+      /* transform: rotate(-45deg); */
+    }
+    h1 {
+      text-align: center;
+      color: white;
+    }
+    #bots {
+      padding-left: 0;
+      padding-top: 20px;
+      padding-right: 0;
+      padding-bottom: 0;
+      color: azure;
+      font-size: 25px;
+    }
+    #paper {
+      padding-left: 0;
+      padding-top: 10px;
+      padding-right: 0;
+      padding-bottom: 0;
+      color: azure;
+      font-size: 25px;
+    }
+    #first {
+        font-family: fantasy;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="full">
+
     <header class="heading">
-        <div>
-            <h1 id="first">
-                ROBOCOR EVENT'S
-            </h1>
-        </div>
+      <div>
+        <h1 id="first">
+          ROBOCOR EVENT'S
+        </h1>
+      </div>
     </header>
 
     <main>
       <section class="cards">
+
+
         <div class="card">
-          <div class="card__image-container">
-            <img
-              src="img.jpg"
-            />
-          </div>
           <div class="card__content">
-            <p class="card__title text--medium">
-              Line following 
-            </p>
-            
+            <div class="card__image-container">
+              <img src="http://www.corsit.in/Robocore19/events/event-landing/images/lfr1.JPG" alt="">
+              <h1>Line following</h1>
+              <p id="bots">Line Follower</p>
+            </div>
+            <div class="card__title text--medium">
+              <h1>Line-Follower</h1>
+              <p>The Line Following bot competition where you have to make a bot that follows the particular line.</p>
+              <button type="button" name="button">Submit</button>
+            </div>
           </div>
         </div>
+
         <div class="card">
-          <div class="card__image-container">
-            <img
-              src="img.jpg"
-            />
-          </div>
           <div class="card__content">
-            <p class="card__title text--medium">
-              Robo-Scoocer
-            </p>
-            
+            <div class="card__image-container">
+              <img src="http://www.corsit.in/Robocore19/events/event-landing/images/RoboCar.JPG" alt="">
+              <h1>Robo-Rash</h1>
+              <p id="bots">Robo-Rash</p>
+            </div>
+            <div class="card__title text--medium">
+              <h1>Robo-Rash</h1>
+              <p>The ultimate thrilling robo race competition where you have to make a bot to win the exiting thrilling match.</p>
+              <button type="button" name="button">Submit</button>
+            </div>
           </div>
         </div>
+
         <div class="card">
-          <div class="card__image-container">
-            <img
-              src="img.jpg"
-            />
-          </div>
           <div class="card__content">
-            <p class="card__title text--medium">
-              Robo-Rash
-            </p>
-            
+            <div class="card__image-container">
+              <img src="http://www.corsit.in/Robocore19/events/event-landing/images/roborace-wired.jpg" alt="">
+              <h1>Cross-Roads</h1>
+              <p id="bots">Cross-Roads</p>
+            </div>
+            <div class="card__title text--medium">
+              <h1>Cross-Roads</h1>
+              <p>A type of robo-race held off track with a challenging arena.</p>
+              <button type="button" name="button">Submit</button>
+            </div>
           </div>
         </div>
+
         <div class="card">
-          <div class="card__image-container">
-            <img
-              src="img.jpg"
-            />
-          </div>
           <div class="card__content">
-            <p class="card__title text--medium">
-              Paper presentation
-            </p>
-            
+            <div class="card__image-container">
+              <img src="http://www.corsit.in/Robocore19/events/event-landing/images/codingIllus.jpg" alt="">
+              <h1>D-code</h1>
+              <p id="bots">D-Code</p>
+            </div>
+            <div class="card__title text--medium">
+              <h1>D-Code</h1>
+              <p>The ultimate programming competition for cs and is guys.</p>
+              <button type="button" name="button">Submit</button>
+            </div>
           </div>
         </div>
+
         <div class="card">
-          <div class="card__image-container">
-            <img
-              src="img.jpg"
-            />
-          </div>
           <div class="card__content">
-            <p class="card__title text--medium">
-              D-code
-            </p>
-            
+            <div class="card__image-container">
+              <img src="http://www.corsit.in/Robocore19/events/event-landing/images/ppr.jpg" alt="">
+              <h1>Paper Presentation</h1>
+              <p id="paper">Paper Presentation</p>
+            </div>
+            <div class="card__title text--medium">
+              <h1>Paper Presentation</h1>
+              <p>You have to convince the jury members for your thought of the official paper Presentation.</p>
+              <button type="button" name="button">Submit</button>
+            </div>
           </div>
         </div>
+
         <div class="card">
-          <div class="card__image-container">
-            <img
-              src="img.jpg"
-            />
-          </div>
           <div class="card__content">
-            <p class="card__title text--medium">
-              Cross-Roads
-            </p>
-            
+            <div class="card__image-container">
+              <img src="http://www.corsit.in/Robocore19/events/event-landing/images/robosoccer.jpg" alt="">
+              <h1>Robo-Soccer</h1>
+              <p id="bots">Robo-Soccer</p>
+            </div>
+            <div class="card__title text--medium">
+              <h1>Robo-Soccer</h1>
+              <p>The ultimate robotics soccer competition among the bots.</p>
+              <button type="button" name="button">Submit</button>
+            </div>
           </div>
-        </div> 
+        </div>
+
+
       </section>
     </main>
-  </body>
+  </div>
+</body>
+
 </html>
