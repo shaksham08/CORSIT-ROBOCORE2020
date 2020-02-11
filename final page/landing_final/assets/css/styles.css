@@ -1,0 +1,121 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+canvas {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.text-box {
+  font-size: 5.5vw;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 7px;
+  word-spacing: 12px;
+  text-transform: uppercase;
+  color:rgb(238, 238, 238);
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+}
+.button {
+  display: inline-block;
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 15px;
+  margin-left:20px;
+  margin-right:20px;
+  word-spacing: normal;
+  letter-spacing: 5px;
+  border: 1px solid white;
+  background: black;
+  cursor: pointer;
+}
+
+ .social {
+    position: fixed;
+    top: 30%;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    transform: translateX(-270px);
+}
+
+.social ul li {
+    display: block;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    transition: all 1s;
+}
+
+.social ul li:hover {
+    transform: translateX(110px);
+}
+
+.social ul li.facebook:hover {
+    background-color: #3d5999;
+}
+
+.social ul li.instagram:hover {
+    background-color: #e4405f;
+}
+
+.social ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social ul li i {
+    text-align: center;
+    margin-left: 14px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    transform: rotate(0deg);
+}
+.time{
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+  /*font-family: 'Orbitron', sans-serif;*/
+  font-size: 4vw;
+
+}
+p#demo{
+  font-weight: 10 !important;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  word-spacing: 15px;
+  letter-spacing: 4px;
+  color: white;
+}
+hr{
+  border: 0;
+  height: 0;
+  margin-top: 5px;
+  width:40vw ;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
