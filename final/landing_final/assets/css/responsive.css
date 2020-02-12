@@ -1,0 +1,137 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.middel{
+    position: relative;
+}
+
+@media screen and (max-width: 1026px) {
+
+    .icons {
+        display: none !important;
+    }
+    .box{
+        display: block !important;
+    }
+
+  }
+.box{
+    display: none;
+}
+  .box{
+      align-items: center;
+      bottom: 0;
+      position: absolute;
+      margin: 10px;
+      padding: 20px;
+
+  }
+
+  .box1{
+      font-size: 28px;
+      margin: 20px;
+
+  }
+  .box2{
+      font-size: 44px;
+  }
+.box i{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: black !important;
+    background-color: white !important;
+    text-align: center;
+    line-height: 40px;
+}
+@media screen and (device-width: 360px) and (device-height: 640px), (-webkit-device-pixel-ratio: 2){
+    .btext{
+        top:30%;
+        font-size: 30px;
+    }
+    .heading{
+        font-size: 8vw;
+    }
+
+    .time{
+        padding-top: 10px;
+        font-size: 6vw;
+    }
+    .btn{
+        font-size: 4vw;
+    }
+    .text{
+        font-size: 4vw !important;
+        padding-top: 140px;
+    }
+    .box i{
+        height: 100px;
+        width: 100px;
+        font-size: 80px !important;
+        line-height: 95px !important;
+    }
+
+    }
+    @media only screen  and (min-device-width: 375px)  and (max-device-width: 812px)  and (-webkit-min-device-pixel-ratio: 3) {
+
+        .btext{
+            top:30%;
+            font-size: 30px;
+        }
+        .heading{
+            font-size: 8vw;
+        }
+
+        .time{
+            padding-top: 10px;
+            font-size: 6vw;
+        }
+        .btn{
+            font-size: 4vw;
+        }
+        .text{
+            font-size: 4vw !important;
+            padding-top: 140px;
+        }
+        .box i{
+            height: 100px;
+            width: 100px;
+            font-size: 80px !important;
+            line-height: 95px !important;
+        }
+
+  }
+
+  @media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+    .btext{
+        top:30%;
+        font-size: 30px;
+    }
+    .heading{
+        font-size: 8vw;
+    }
+
+    .time{
+        padding-top: 10px;
+        font-size: 6vw;
+    }
+    .btn{
+        font-size: 4vw;
+    }
+    .text{
+        font-size: 4vw !important;
+        padding-top: 140px;
+    }
+    .box i{
+        height: 100px;
+        width: 100px;
+        font-size: 80px !important;
+        line-height: 95px !important;
+    }
+}

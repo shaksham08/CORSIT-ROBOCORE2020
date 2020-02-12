@@ -1,0 +1,124 @@
+.intro{
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+
+.heading{
+    color: #eeeeee;
+    list-style-type: none;
+    display: inline-block;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+
+}
+.head{
+    align-items: center;
+    text-align: center;
+}
+.head1{
+    font-size: 5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 50 !important;
+}
+.head2{
+    font-size: 7vw;
+    margin-left: 15px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 200 !important;
+}
+.info{
+ color: #eeeeee;
+ text-align: center;
+ font-size: 1.5vw;
+ margin-top: 30px;
+ padding: 20px;
+ position: absolute;
+ margin-right: 15px;
+
+}
+.info1{
+    font-family: 'Josefin Slab', sans-serif;
+    font-weight: ;
+    line-height: 30px;
+}
+.pic{
+    border-radius: 50% !important;
+}
+.photos{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 200px;
+align-items: center;
+}
+@media screen and (max-width: 1026px) and (min-width: 600px) {
+.info1{
+    font-size: 2vw;
+    line-height: 18px;
+}
+.bg{
+    height: 110vh;
+}
+}
+@media screen and (max-width: 750px){
+    .bg{
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 600px) {
+   .head1{
+       font-size: 6vw;
+   }
+   .head2{
+       font-size: 9vw;
+       margin-top: 5px;
+   }.head_m{
+       margin-top: 20px;
+   }
+   .info1{
+       font-size: 4.3vw;
+       line-height: 18px;
+   }
+   .photos{
+       margin-top: 330px !important;
+   }
+.bg {
+    /*background-color: #17182f;*/
+    position: fixed;
+    width: 100vw;
+    height: 180vh;
+    overflow: hidden;
+
+  }
+  .night{
+    position: absolute;
+    margin-right: 0;
+	width: 80vw;
+	height: 60vh;
+  transform: rotateZ(45deg);
+  align-items: center;
+  }
+  .pic{
+      height: 150px;
+  }
+  .photos{
+      margin-top: 240px;
+  }
+  }
+  .sec{
+      height: 100vh;
+      width: 100vw;
+  }
+  .pic{
+      width: 180px;
+      height: 180px;
+      margin: 10px;
+      border: 2px solid #eeeeee;
+      padding: 10px;
+  }
