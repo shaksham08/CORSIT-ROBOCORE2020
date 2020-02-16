@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|Open+Sans);
+.img{
+  width:150px;
+  height:150px;
+}
+.face{
+  align-items:center;
+}
+.box{
+align-items:center;
+}
+
+
+.scene{
+  height: 200px;
+  width: 150px;
+  border: 15px solid #4c4749;
+  background: #4c4749;
+  margin: 50px auto;
+  -webkit-perspective:1000px;
+  -webkit-transition: .5s all ease;
+  font-size: 15px;
+  -webkit-box-shadow: 0 0 25px rgba(30,30,30,.8);
+  margin: 10px;
+  color: white;
+  text-align: center;
+
+}
+
+.box{
+  align-items: center;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  -webkit-transform: rotateY(0) rotateX(0);
+  -webkit-transition: 1.2s all ease;
+  -webkit-transform-style: preserve-3d;
+  padding-top: 10px;
+}
+b{
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+.know{
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0.35rem;
+}
+
+.scene:hover .box{
+  -webkit-transform: rotateY(180deg) rotateX(360deg);
+
+}
+.content{
+    align-items: center;
+    overflow: hidden;
+}
+.container_m{
+   display: flex;
+   justify-content: center;
+}
+.container{
+  position: absolute;
+  padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+}
+.main{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+
+    letter-spacing: 5px;
+}
+
+.face, .back{
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 1em;
+  align-items: center;
+}
+.disp{
+  margin: 15px 15px 15px 15px;
+}
+.back{
+  font-size: 0.8em;
+}
+
+.face{
+}
+
+.back{
+  text-align: center;
+  background-color: black;
+  -webkit-transform: rotateY(180deg);
+  border: 2px solid white;
+}
+@media screen and (max-width: 1072px){
+.sec,.sec1{
+  height: 240vh;
+}
+}
