@@ -57,6 +57,12 @@ justify-content: center;
 margin-top: 200px;
 align-items: center;
 }
+@media screen and (max-width: 960px){
+    .photos{
+        margin-top: 300px !important;
+    }
+}
+
 @media screen and (max-width: 1026px) and (min-width: 600px) {
 .info1{
     font-size: 2vw;

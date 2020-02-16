@@ -18,9 +18,10 @@ body {
     height: 100%;
   }
   .sec{
-      width: 100%;
+      width: 100vw;
       height: 120vh;
       background-color: black;
+
   }
   .sec1{
     width: 100vw;
