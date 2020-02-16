@@ -1,15 +1,38 @@
 body {
 	text-align: center;
-	background-image: url("img.jpg");
+	background-image: url("image/space.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+*{
+	margin: 0;
+	padding: 0;
+}
+.ebg{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	padding-bottom: 50px;
+}
 
-header {
+.list{
+	text-align:left;
+	line-height: 2;
+	color:white;
+	font-weight: 800s;
+	padding-bottom: 30px;
+	width: 50%;
+	margin: auto;
+	font-size: 1.6vw;
+	font-family: 'Philosopher', sans-serif;
+}
+.reg_head {
 	height: 150px;
 }
 
-p {
+.regp {
 	line-height: 2;
 	color: azure;
 	padding-bottom: 30px;
@@ -25,20 +48,20 @@ p {
 
 .heading {
 	font-size: 4.5vw;
+	color: white;
 }
 
-img {
+.regi{
 	height: 300px;
 	padding-bottom: 50px;
 }
-
-h1 {
+.reg {
 	color: azure;
 	font-family: 'Cormorant', serif;
 	margin: 0;
 	padding-top: 30px;
+	font-size:4em;
 }
-
 .register {
 	margin-right: 50px;
 }
@@ -72,14 +95,14 @@ h1 {
 	.heading {
     	font-size: 2.3rem;
     }
-	header {
+	.reg_head {
 		height: 100px;
 	}
-	p {
+	.regp {
 		font-size: .9rem;
 		width: 85%;
 	}
-	img {
+	.regi {
 		height: 50%;
 		width: 50%;
 	}
