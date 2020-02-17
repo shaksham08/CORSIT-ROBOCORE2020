@@ -125,6 +125,12 @@ align-items: center;
       border: 2px solid #eeeeee;
       padding: 10px;
   }
+  @media only screen and (max-width: 800px){
+    .bg{
+        width: 100vw;
+        height: 220vh;
+    }
+  }
   @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2){
             .bg{
                 width: 100vw;

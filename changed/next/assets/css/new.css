@@ -1,0 +1,81 @@
+/* ---- reset ---- */
+
+body {
+    margin: 0;
+  }
+
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+
+
+  /* ---- particles.js container ---- */
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .sec{
+      width: 100vw;
+      height: 140vh;
+      background-color: black;
+
+  }
+  .sec1{
+    width: 100vw;
+    height: 140vh;
+
+  }
+  @media screen and (max-width:1075px)  and (min-width:950px){
+    .sec1,.sec{
+      height: 160vh !important;
+    }
+  }
+  @media screen and (max-width:900px)  and (min-width:600px){
+    .sponsor1,.sponsor{
+      height: 180vh !important;
+      align-items: center;
+    }
+
+  }
+  @media screen and (max-width:600px){
+    .sec1,.sec{
+      height: 300vh !important;
+    }
+    .sponsor1,.sponsor{
+      height: 250vh !important;
+      align-items: center;
+    }
+    .card{
+    width: 240px;
+    }
+    .cards{
+      align-items: center;
+      padding-left: 60px;
+    }
+    .main{
+      align-items: center;
+    }
+
+  }
+  @media screen and (device-width: 320px) and (device-height: 568px){
+    .sec1,.sec{
+      height: 350vh !important;
+    }
+    .sponsor1,.sponsor{
+      height: 250vh !important;
+      align-items: center;
+    }
+    .card{
+    width: 200px;
+    }
+    .cards{
+      align-items: center;
+      padding-left: 50px;
+    }
+    .main{
+      align-items: center;
+    }
+  }
