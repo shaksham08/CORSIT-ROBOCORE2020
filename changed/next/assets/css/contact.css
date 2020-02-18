@@ -8,7 +8,7 @@ footer{
   .contact{
     height: 500px ;
     background-color: rgba(25, 25, 25, 1);
-    position: fixed;
+    position: absolute;
     width: 100%;
 
   }
@@ -80,9 +80,21 @@ footer{
   }
   @media screen and (max-width: 1026px) {
     .contact{
-      height: 140vh;
+      height: 150vh;
     }
     .tittle{
       font-size: 7vw;
     }
   }
+
+  @media screen and (device-width: 320px) and (device-height: 568px){
+    .contact,.contact_i{
+      height: 170vh;
+    }
+  }
+    @media screen and (device-width: 360px) and (device-height: 648px){
+      .contact,.contact_i{
+        height: 180vh;
+      }
+
+    }
